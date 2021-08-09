@@ -1,0 +1,181 @@
+
+/*
+Declaração de Variaves CSS3
+*/
+
+:root{
+    --vermelho: #E50914;
+    --preta: #141414;
+}
+
+/*
+Reset CSS3
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+/*
+Base Principal 
+*/
+
+body{
+    background:var(--preta);
+    font-family: 'Oswald', sans-serif;
+    color: white;
+}
+
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo{
+    color: var(--vermelho);
+    font-family: 'Oswald',sans-serif;
+    font-size: 40px;
+    font-weight: bolder;
+
+}
+
+header nav a{
+    text-decoration: none;
+    color:#AAA;
+    margin-right: 10px;
+}
+
+header nav a:hover{
+    color:#fff;
+}
+
+/*
+Relacionados ao filme
+*/
+
+.filme-principal{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.30),rgba(0,0,0,.30)100%), url('/netFlix/img/capa-house.jpg');
+    
+    height: 700px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+.filme-principal .descricao{
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.filme-principal .titulo{
+    margin-top: 15%;
+    font-size: 40px;
+    font-family:'Oswald',sans-serif;
+
+}
+
+.botao{
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: white;
+
+    padding: 15px 30px;
+    margin-right: 15px;
+    font-size: 12px;
+
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.botao:hover{
+    background-color: white;
+    color: black;
+
+}
+
+.botao i{
+    margin-right: 8px;
+}
+
+.container{
+    margin-left: 20px;
+}
+
+.filme-principal .container{
+    width: 70%;
+}
+
+.box-filme{
+    height: 100%;
+    width: 100%;
+    display: block;
+
+}
+
+.carrosel-filmes{
+    margin-top: 5px;
+}
+
+.carrosel-filmes p{
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bolder;
+    font-variant:small-caps;
+    text-decoration: underline 3px;
+    background: var(--vermelho);
+}
+
+
+footer{
+    background: var(--vermelho);
+    width: 100%;
+    height: 80px;
+}
+
+footer p{
+    text-align: center;
+    padding-top: 25px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+
+.carousel-inner img{
+    display: block;
+    margin: auto;
+    -webkit-mask-image: linear-gradient(to top, transparent 10%, black 30%);
+}
+
+.carousel-inner .mais{
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bolder;
+    font-variant:small-caps;
+    text-decoration: underline 3px;
+    background: var(--vermelho);
+}
+
+
+
+
+
+
+
+
+
+
+
+

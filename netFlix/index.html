@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="style/style.css">
+    
+
+    <!--owl css-->
+    <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+
+    <!--responsividade-->
+    <link rel="stylesheet" href="style/resposive.css">
+
+    <title>NETFLIX ClONE</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h2 class="logo">CODEFILM</h2>
+            <nav>
+                <a href="#">Inicio</a>
+                <a href="#">Séries</a>
+                <a href="#">Filmes</a>
+                <a href="#">Documentários</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div id="fp" class="filme-principal">
+            <div class="container">
+                <h3 class="titulo">HOUSE OF CARDS</h3>
+                <p class="descricao">Um político inescrupuloso não mede esforços para conquistar o poder nos EUA neste drama vencedor do Emmy e do Globo de Ouro. 
+                Assista nova temporada disponivel,</p>
+                <div class="botoes">
+                    <button role="button" class="botao">
+                        <i class="far fa-play-circle"></i>
+                        ASSISTIR AGORA
+                    </button>
+                    <button role="button" class="botao">
+                        <i class="far fa-question-circle"></i>
+                        MAIS INFORMAÇÕES
+                    </button>
+                </div>
+            </div>     
+        </div>
+    </main>
+
+    <div id="carrosel" class="carrosel-filmes">
+        <p>Os mais procurados</p>
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+               <button type="button"><img class="box-filme" src="img/mini1.jpg" alt="" srcset=""></button> 
+            </div>
+            <class class="item">
+                <button type="button"><img class="box-filme" src="img/mini2.jpg" alt="" srcset=""></button>
+            </class>
+            <div class="item">
+                <button type="button"><img class="box-filme" src="img/mini3.jpg" alt="" srcset=""></button>
+            </div>
+            <div class="item">
+                <button type="button"><img class="box-filme" src="img/mini4.jpg" alt="" srcset=""></button>
+            </div>
+            <div class="item">
+                <button type="button"><img class="box-filme" src="img/mini5.jpg" alt="" srcset=""></button>
+            </div>
+            <div class="item">
+                <button type="button"><img class="box-filme" src="img/mini6.jpg" alt="" srcset=""></button>
+            </div>
+            <div class="item">
+                <button type="button"><img class="box-filme" src="img/mini7.jpg" alt="" srcset=""></button>
+            </div>
+            <div class="item">
+                <button type="button"><img class="box-filme" src="img/mini8.jpg" alt="" srcset=""></button>
+            </div>
+            <div class="item">
+                <button type="button"><img class="box-filme" src="img/mini9.jpg" alt="" srcset=""></button>
+            </div>
+            <div class="item">
+                <button type="button"><img class="box-filme" src="img/mini10.jpg" alt="" srcset=""></button>
+            </div>
+        </div>
+    </div>
+
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <p class="mais">Os mais assistidos pelo publico</p>
+            <div class="carousel-item active">
+                <img src="img/mini4.jpg" class="d-block w-50" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Capitão America: Guerra Civil</h5>
+                    <p>O ataque de Ultron fez com que os políticos buscassem algum meio de controlar os super-heróis, já que seus atos afetam toda a humanidade. Tal decisão coloca o Capitão América em rota de colisão com Tony Stark, o Homem de Ferro.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/mini5.jpg" class="d-block w-50" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5> O Hobbit: A Batalha dos Cinco Exércitos (2014) </h5>
+                    <p>O dragão Smaug lança sua fúria ardente contra a Cidade do Lago que fica próxima da montanha de Erebor. Bard consegue derrotá-lo, mas, rapidamente, sem a ameaça do dragão, inicia-se uma batalha pelo controle de Erebor e sua riqueza. Os anões, liderados por Thorin, adentram a montanha e estão dispostos a impedir a entrada de elfos, anões e orcs. Bilbo Bolseiro e Gandalf tentam impedir a guerra.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/mini6.jpg" class="d-block w-50" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5> Breaking Bad: A Química do Mal (2008) </h5>
+                    <p>Ao saber que tem câncer, um professor passa a fabricar metanfetamina pelo futuro da família, mudando o destino de todos.</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+    <script src="https://kit.fontawesome.com/59cf656b9e.js" crossorigin="anonymous"></script>
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/owl/setup.js"></script>
+
+<footer>
+    <p>CODEFILM&copy</p>
+</footer>
+</body>
+</html>
