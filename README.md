@@ -12,4 +12,6 @@
 
 - Jquery 
 
-- Js (em produção).
+- Js (Botões com eventos onclik simples para votação).
+
+#### Implementação dos conhecimmentos básicos 

@@ -105,7 +105,13 @@ Relacionados ao filme
 }
 
 .botao i{
-    margin-right: 8px;
+    margin-left: 10px;
+    
+}
+
+.votos{
+    margin-left: 20px;
+    margin-top: 250px;
 }
 
 .container{
